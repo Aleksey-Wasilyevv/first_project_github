@@ -66,7 +66,6 @@
                         <td>
                             <!-- TODO: Delete Button -->
                             <form action="{{ url('task/'.$task->id) }}" method="POST">
-                                {{ csrf_field() }}
                                 <input type="hidden" name="_method" value="DELETE">
 
                                 <button type="submit" class="btn btn-danger">
