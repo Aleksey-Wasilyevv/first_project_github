@@ -37,8 +37,9 @@
         </div>
     </form>
 </div>
-
-<!-- TODO: Current Tasks -->
+</div>
+        
+        <!-- TODO: Current Tasks -->
 @if (count($tasks) > 0)
     <div class="panel panel-default">
         <div class="panel-heading">
@@ -81,7 +82,6 @@
         </div>
     </div>
 @endif
-        </div>
     </div>
 </div>
 @endsection
